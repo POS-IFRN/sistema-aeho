@@ -1,0 +1,229 @@
+CREATE TABLE Registro 
+(
+  nome VARCHAR(100),
+  nascimento VARCHAR(10),
+  rg VARCHAR(11),
+  cpf VARCHAR(15),
+  genero VARCHAR(45),
+  email VARCHAR(100),
+  usuario VARCHAR(45) NOT NULL ,
+  senha VARCHAR(45) NOT NULL ,
+  foto_de_perfil VARCHAR(MAX),
+  rua VARCHAR(50),
+  numero INT,
+  bairro VARCHAR(45),
+  uf VARCHAR(2),
+  cidade VARCHAR(45),
+  cep VARCHAR(45),
+  complemento VARCHAR(50),
+  privilegio INT NOT NULL ,
+  PRIMARY KEY (usuario) 
+)
+
+-- -----------------------------------------------------
+-- Table mydb.Administrador
+-- -----------------------------------------------------
+CREATE TABLE Administrador 
+(
+  login VARCHAR(100) NOT NULL ,
+  senha VARCHAR(100) NOT NULL ,
+  PRIMARY KEY (login)  
+)
+
+
+-- -----------------------------------------------------
+-- Table mydb.Competicao
+-- -----------------------------------------------------
+CREATE TABLE Competicao 
+(
+  id INT NOT NULL IDENTITY(1,1) ,
+  nome VARCHAR(50) NOT NULL,
+  inicioInscricao DATE NOT NULL ,
+  encerramentoInscricao DATE NOT NULL ,
+  dataEvento DATE NOT NULL ,
+  dataFimEvento DATE NOT NULL,
+  modalidade VARCHAR(45) NOT NULL ,
+  horario TIME NOT NULL,
+  genero VARCHAR(45) NOT NULL ,
+  descricao VARCHAR(200) NOT NULL ,
+  valorInscricao FLOAT ,
+  numeromaximoInscritos INT NOT NULL ,
+  status_competicao INT NOT NULL ,
+  Organizador_usuario VARCHAR(45) NOT NULL,
+  rua VARCHAR(50) NOT NULL ,
+  numero INT NOT NULL ,
+  bairro VARCHAR(45) NOT NULL ,
+  uf VARCHAR(2) NOT NULL ,
+  cidade VARCHAR(45) NOT NULL ,
+  cep VARCHAR(45) NOT NULL ,
+  complemento VARCHAR(50) NULL ,
+  foto_da_competicao VARCHAR(MAX) NOT NULL
+  PRIMARY KEY (id)
+  FOREIGN KEY (Organizador_usuario) REFERENCES Registro(usuario) ON DELETE CASCADE
+)
+-- -----------------------------------------------------
+-- Table mydb.EnderecoCompeticao
+-- -----------------------------------------------------
+-- -----------------------------------------------------
+-- Table mydb.CompeticaoRegistro
+-- -----------------------------------------------------
+CREATE TABLE CompeticaoRegistro (
+  Competicao_id INT NOT NULL ,
+  Registro_usuario VARCHAR(45) NOT NULL ,
+  tipo_medalha INT NOT NULL
+  PRIMARY KEY (Competicao_id, Registro_usuario)
+  FOREIGN KEY (Competicao_id) REFERENCES Competicao(id) ON DELETE CASCADE,
+  FOREIGN KEY (Registro_usuario) REFERENCES Registro(usuario) 
+  )
+  
+
+CREATE TABLE Mensagem (
+  id INT NOT NULL IDENTITY(1,1),
+  competicao_id INT,
+  registro_remetente VARCHAR(45),
+  mensagem VARCHAR(200) NOT NULL,
+  lida INT NOT NULL,
+  registro_receptor VARCHAR(45),
+  data_envio DATE DEFAULT GETDATE()
+  PRIMARY KEY (id)
+  FOREIGN KEY (competicao_id) REFERENCES Competicao(id),
+  FOREIGN KEY (registro_remetente) REFERENCES Registro(usuario),
+  FOREIGN KEY (registro_receptor) REFERENCES Registro(usuario)
+)
+
+
+/* SELECT r.nome, r.cidade from Registro r where r.nome like '%%' 
+
+
+select r.nome as Nome, r.cidade as Cidade, r.genero as Genero, r.uf as UF from Registro r where r.nome like '%s%'
+union
+select r.nome as Nome, r.cidade as Cidade, r.genero as Genero, r.uf as UF from Registro r where r.cidade like '%P%'
+union
+select r.nome as Nome, r.cidade as Cidade, r.genero as Genero, r.uf as UF from Registro r where r.genero like '%M%'
+union
+select r.nome as Nome, r.cidade as Cidade, r.genero as Genero, r.uf as UF from Registro r where r.uf like '%P%'
+
+
+
+select r.nome as Nome, r.cidade as Cidade, r.genero as Genero, r.uf as UF from Registro r where (r.nome like '%s%') OR (r.genero like '%P%') OR (r.cidade like '%P%') OR (r.uf like '%P%')
+union 
+select c.nome as 'Título da Competição' from Competicao c where (c.nome like '%d')
+
+
+select r.nome as Nome, r.cidade as Cidade, r.genero as 'Gênero do Atleta', r.uf as UF from Registro r where r.nome like '%s%'
+
+
+
+-------Registros Aleatórios -------
+
+
+select r.nome as Nome, r.cidade as Cidade, r.genero as Genero, r.uf as UF from Registro r where (r.nome like '%s%') OR (r.genero like '%P%') OR (r.cidade like '%P%') OR (r.uf like '%P%')
+union 
+
+
+select c.nome, c.modalidade, c.genero, c.descricao, c.status_competicao, c.Organizador_usuario from Competicao c where (c.nome like '%d') OR (c.modalidade like '%d') OR (c.genero like '%d') OR (c.descricao like '%d') OR (status_competicao like '%d') OR (c.Organizador_usuario like '%d') 
+
+select r.nome as 'Nome do Atleta' from Registro r where r.nome like '%d%'*/
+            
+
+
+-------Registro Atletas -------------------
+
+INSERT INTO [Registro] (nome, nascimento, rg, cpf, genero, email, usuario, senha, foto_de_perfil, rua, numero, bairro, uf, cidade, cep, complemento, privilegio) 
+VALUES ('Daniel Souza Affonso Ferreira', '05-06-1998', '987.345.678', '016.988.794-40', 'Masculino', 'danielsouza@gmail.com' , 'danielatleta', '123', 'f2.jpg', 'Rua dos Paiatis',  12, 'Alecrim', 'RN', 'Natal', '59065-210', 'Próximo à feira', 1)
+
+INSERT INTO [Registro] (nome, nascimento, rg, cpf, genero, email, usuario, senha, foto_de_perfil, rua, numero, bairro, uf, cidade, cep, complemento, privilegio) 
+VALUES ('Luís Felipe Mesquita Cansanção Felipe', '08-08-1997', '987.444.678', '036.984.794-40', 'Masculino', 'felipefelipe@gmail.com' , 'luisatleta', '123', 'f5.jpg', 'Rua dos Augusto Leite',  3123, 'Tirol', 'RN', 'Natal', '59075-910', 'Próximo à praça', 1)
+
+INSERT INTO [Registro] (nome, nascimento, rg, cpf, genero, email, usuario, senha, foto_de_perfil, rua, numero, bairro, uf, cidade, cep, complemento, privilegio) 
+VALUES ('Marcos Vinícius', '02-02-1997', '123.444.678', '036.984.795-50', 'Masculino', 'marcosvbez@gmail.com' , 'barcosatleta', '123', 'f1.jpg', 'Rua dos Arrecifes',  3123, 'Tirol', 'RN', 'Natal', '59085-910', 'Próximo ao midway', 1)
+
+INSERT INTO [Registro] (nome, nascimento, rg, cpf, genero, email, usuario, senha, foto_de_perfil, rua, numero, bairro, uf, cidade, cep, complemento, privilegio) 
+VALUES ('Isaac Gomes Medeiros', '08-08-1998', '987.444.678', '036.984.794-40', 'Masculino', 'zazakizika@gmail.com' , 'isaacatleta', '123', 'f4.jpg', 'Rua da Seca',  3123, 'Poro', 'RN', 'Currais-Novos', '59075-910', 'Próximo à praça', 1)
+
+INSERT INTO [Registro] (nome, nascimento, rg, cpf, genero, email, usuario, senha, foto_de_perfil, rua, numero, bairro, uf, cidade, cep, complemento, privilegio) 
+VALUES ('Gilson Gabriel Martins Diniz', '01-01-1998', '987.444.678', '036.984.794-40', 'Masculino', 'gilson@gmail.com' , 'gilsonatleta', '123', 'f3.jpg', 'Rua José do Patrocínio',  3123, 'Tirol', 'RN', 'Natal', '59075-910', 'Próximo à praça', 1)
+
+INSERT INTO [Registro] (nome, nascimento, rg, cpf, genero, email, usuario, senha, foto_de_perfil, rua, numero, bairro, uf, cidade, cep, complemento, privilegio) 
+VALUES ('Arthur Victor de Lima Paiva', '08-08-1997', '987.444.678', '036.984.794-40', 'Masculino', 'arthur@gmail.com' , 'arthuratleta', '123', 'f1.jpg', 'Rua do Albertoo',  3123, 'Parnamirim', 'RN', 'Natal', '59075-910', 'Próximo à praça', 1)
+
+INSERT INTO [Registro] (nome, nascimento, rg, cpf, genero, email, usuario, senha, foto_de_perfil, rua, numero, bairro, uf, cidade, cep, complemento, privilegio) 
+VALUES ('Kádson Breno Benvindo', '08-08-1997', '987.444.678', '036.984.794-40', 'Masculino', 'kadson@gmail.com' , 'kadsonatleta', '123', 'f1.jpg', 'Rua Azul',  3123, 'Ninguém sabe', 'RN', 'Natal', '59075-910', 'Próximo à praça', 1)
+
+INSERT INTO [Registro] (nome, nascimento, rg, cpf, genero, email, usuario, senha, foto_de_perfil, rua, numero, bairro, uf, cidade, cep, complemento, privilegio) 
+VALUES ('Victor Agnez Lima', '08-08-1997', '987.444.678', '036.984.794-40', 'Masculino', 'vitu@gmail.com' , 'victoratleta', '123', 'f1.jpg', 'Rua Sem Projeto',  3123, 'Tirol', 'RN', 'Russia', '59075-910', 'Próximo à praça', 1)
+
+INSERT INTO [Registro] (nome, nascimento, rg, cpf, genero, email, usuario, senha, foto_de_perfil, rua, numero, bairro, uf, cidade, cep, complemento, privilegio) 
+VALUES ('Berg Bioca Ednaldo Godeiro', '08-08-1997', '987.444.678', '036.984.794-40', 'Masculino', 'memes@gmail.com' , 'godeiroatleta', '123', 'f1.jpg', 'Internet',  3123, 'Velox', 'RN', 'Natal', '59075-910', 'Próximo ao Google', 1)
+
+INSERT INTO [Registro] (nome, nascimento, rg, cpf, genero, email, usuario, senha, foto_de_perfil, rua, numero, bairro, uf, cidade, cep, complemento, privilegio) 
+VALUES ('Piruleta Jackson', '08-08-1997', '987.444.678', '036.984.794-40', 'Masculino', 'piruleta@gmail.com' , 'piruletaatleta', '123', 'f1.jpg', 'Campo Aberto',  3123, 'Tirol', 'RN', 'Natal', '59075-910', 'Próximo ao youtube', 1)
+
+---- registro Organizadores -------------
+
+
+INSERT INTO [Registro] (nome, nascimento, rg, cpf, genero, email, usuario, senha, foto_de_perfil, rua, numero, bairro, uf, cidade, cep, complemento, privilegio) 
+VALUES ('Daniel Souza Affonso Ferreira', '05-06-1998', '987.345.678', '016.988.794-40', 'Masculino', 'danielsouza@gmail.com' , 'danielorg', '123', 'f2.jpg', 'Rua dos Paiatis',  12, 'Alecrim', 'RN', 'Natal', '59065-210', 'Próximo à feira', 2)
+
+INSERT INTO [Registro] (nome, nascimento, rg, cpf, genero, email, usuario, senha, foto_de_perfil, rua, numero, bairro, uf, cidade, cep, complemento, privilegio) 
+VALUES ('Luís Felipe Mesquita Cansanção Felipe', '08-08-1997', '987.444.678', '036.984.794-40', 'Masculino', 'felipefelipe@gmail.com' , 'luisorg', '123', 'f5.jpg', 'Rua dos Augusto Leite',  3123, 'Tirol', 'RN', 'Natal', '59075-910', 'Próximo à praça', 2)
+
+INSERT INTO [Registro] (nome, nascimento, rg, cpf, genero, email, usuario, senha, foto_de_perfil, rua, numero, bairro, uf, cidade, cep, complemento, privilegio) 
+VALUES ('Marcos Vinícius', '02-02-1997', '123.444.678', '036.984.795-50', 'Masculino', 'marcosvbez@gmail.com' , 'barcosorg', '123', 'f1.jpg', 'Rua dos Arrecifes',  3123, 'Tirol', 'RN', 'Natal', '59085-910', 'Próximo ao midway', 2)
+
+INSERT INTO [Registro] (nome, nascimento, rg, cpf, genero, email, usuario, senha, foto_de_perfil, rua, numero, bairro, uf, cidade, cep, complemento, privilegio) 
+VALUES ('Isaac Gomes Medeiros', '08-08-1998', '987.444.678', '036.984.794-40', 'Masculino', 'zazakizika@gmail.com' , 'isaacorg', '123', 'f4.jpg', 'Rua da Seca',  3123, 'Poro', 'RN', 'Currais-Novos', '59075-910', 'Próximo à praça', 2)
+
+INSERT INTO [Registro] (nome, nascimento, rg, cpf, genero, email, usuario, senha, foto_de_perfil, rua, numero, bairro, uf, cidade, cep, complemento, privilegio) 
+VALUES ('Gilson Gabriel Martins Diniz', '01-01-1998', '987.444.678', '036.984.794-40', 'Masculino', 'gilson@gmail.com' , 'gilsonorg', '123', 'f3.jpg', 'Rua José do Patrocínio',  3123, 'Tirol', 'RN', 'Natal', '59075-910', 'Próximo à praça', 2)
+
+INSERT INTO [Registro] (nome, nascimento, rg, cpf, genero, email, usuario, senha, foto_de_perfil, rua, numero, bairro, uf, cidade, cep, complemento, privilegio) 
+VALUES ('Arthur Victor de Lima Paiva', '08-08-1997', '987.444.678', '036.984.794-40', 'Masculino', 'arthur@gmail.com' , 'arthurorg', '123', 'f1.jpg', 'Rua do Albertoo',  3123, 'Parnamirim', 'RN', 'Natal', '59075-910', 'Próximo à praça', 2)
+
+INSERT INTO [Registro] (nome, nascimento, rg, cpf, genero, email, usuario, senha, foto_de_perfil, rua, numero, bairro, uf, cidade, cep, complemento, privilegio) 
+VALUES ('Kádson Breno Benvindo', '08-08-1997', '987.444.678', '036.984.794-40', 'Masculino', 'kadson@gmail.com' , 'kadsonorg', '123', 'f1.jpg', 'Rua Azul',  3123, 'Ninguém sabe', 'RN', 'Natal', '59075-910', 'Próximo à praça', 2)
+
+INSERT INTO [Registro] (nome, nascimento, rg, cpf, genero, email, usuario, senha, foto_de_perfil, rua, numero, bairro, uf, cidade, cep, complemento, privilegio) 
+VALUES ('Victor Agnez Lima', '08-08-1997', '987.444.678', '036.984.794-40', 'Masculino', 'vitu@gmail.com' , 'victororg', '123', 'f1.jpg', 'Rua Sem Projeto',  3123, 'Tirol', 'RN', 'Russia', '59075-910', 'Próximo à praça', 2)
+
+INSERT INTO [Registro] (nome, nascimento, rg, cpf, genero, email, usuario, senha, foto_de_perfil, rua, numero, bairro, uf, cidade, cep, complemento, privilegio) 
+VALUES ('Berg Bioca Ednaldo Godeiro', '08-08-1997', '987.444.678', '036.984.794-40', 'Masculino', 'memes@gmail.com' , 'godeiroorg', '123', 'f1.jpg', 'Internet',  3123, 'Velox', 'RN', 'Natal', '59075-910', 'Próximo ao Google', 2)
+
+INSERT INTO [Registro] (nome, nascimento, rg, cpf, genero, email, usuario, senha, foto_de_perfil, rua, numero, bairro, uf, cidade, cep, complemento, privilegio) 
+VALUES ('Piruleta Jackson', '08-08-1997', '987.444.678', '036.984.794-40', 'Masculino', 'piruleta@gmail.com' , 'piruletaorg', '123', 'f1.jpg', 'Campo Aberto',  3123, 'Tirol', 'RN', 'Natal', '59075-910', 'Próximo ao youtube', 2)
+INSERT INTO [Registro] (usuario, senha, privilegio)
+VALUES ('admin', 'admin', 999)
+
+
+--- Registro Competição ----- 
+
+INSERT INTO [Competicao] (nome, inicioInscricao, encerramentoInscricao, dataEvento, dataFimEvento, modalidade, horario, genero, rua, numero, bairro, cep, complemento, cidade, uf, ValorInscricao, descricao, numeromaximoInscritos, status_competicao, Organizador_usuario, foto_da_competicao) 
+VALUES ('Competicao Dota', '09-12-2015', '13-12-2015', '15-12-2015', '18-12-2015', 'Dota', '10:00', 'Masculino', 'Rua do Maxixe', 12, 'Alecrim', '59065-210', 'Próximo ao Nordestao', 'Natal', 'RN', 1000, 'Prove suas Habilidades nessa competição', 10, 0, 'danielorg', 'dota.jpg')
+
+
+INSERT INTO [Competicao] (nome, inicioInscricao, encerramentoInscricao, dataEvento, dataFimEvento, modalidade, horario, genero, rua, numero, bairro, cep, complemento, cidade, uf, ValorInscricao, descricao, numeromaximoInscritos, status_competicao, Organizador_usuario, foto_da_competicao) 
+VALUES ('Competicao Fifa', '01-01-2015', '01-02-2015', '01-03-2015', '01-04-2015', 'FIFA', '10:00', 'Masculino', 'Rua do Maxixe', 12, 'Alecrim', '59065-210', 'Próximo ao Nordestao', 'Natal', 'RN', 1000, 'Prove suas Habilidades nessa competição', 10, 0, 'gilsonorg', 'fifa.jpg')
+
+
+INSERT INTO [Competicao] (nome, inicioInscricao, encerramentoInscricao, dataEvento, dataFimEvento, modalidade, horario, genero, rua, numero, bairro, cep, complemento, cidade, uf, ValorInscricao, descricao, numeromaximoInscritos, status_competicao, Organizador_usuario, foto_da_competicao) 
+VALUES ('Competicao PES', '09-12-2015', '11-12-2015', '01-03-2015', '01-04-2015', 'PES', '10:00', 'Masculino', 'Rua do Maxixe', 12, 'Alecrim', '59065-210', 'Próximo ao Nordestao', 'Natal', 'RN', 1000, 'Prove suas Habilidades nessa competição', 10, 1, 'luisorg', 'pes.jpg')
+
+
+INSERT INTO [Competicao] (nome, inicioInscricao, encerramentoInscricao, dataEvento, dataFimEvento, modalidade, horario, genero, rua, numero, bairro, cep, complemento, cidade, uf, ValorInscricao, descricao, numeromaximoInscritos, status_competicao, Organizador_usuario, foto_da_competicao) 
+VALUES ('Competicao 1', '01-01-2015', '01-02-2015', '01-03-2015', '01-04-2015', 'Dota', '10:00', 'Masculino', 'Rua do Maxixe', 12, 'Alecrim', '59065-210', 'Próximo ao Nordestao', 'Natal', 'RN', 1000, 'Prove suas Habilidades nessa competição', 10, 1, 'danielorg', 'c1.jpg')
+
+
+INSERT INTO [Competicao] (nome, inicioInscricao, encerramentoInscricao, dataEvento, dataFimEvento, modalidade, horario, genero, rua, numero, bairro, cep, complemento, cidade, uf, ValorInscricao, descricao, numeromaximoInscritos, status_competicao, Organizador_usuario, foto_da_competicao) 
+VALUES ('Competicao 2', '01-01-2015', '01-02-2015', '08-12-2015', '09-04-2015', 'Dota', '10:00', 'Masculino', 'Rua do Maxixe', 12, 'Alecrim', '59065-210', 'Próximo ao Nordestao', 'Natal', 'RN', 1000, 'Prove suas Habilidades nessa competição', 10, 2, 'danielorg', 'c1.jpg')
+
+
+INSERT INTO [Competicao] (nome, inicioInscricao, encerramentoInscricao, dataEvento, dataFimEvento, modalidade, horario, genero, rua, numero, bairro, cep, complemento, cidade, uf, ValorInscricao, descricao, numeromaximoInscritos, status_competicao, Organizador_usuario, foto_da_competicao) 
+VALUES ('Competicao 3', '01-01-2015', '01-02-2015', '01-03-2015', '01-04-2015', 'Dota', '10:00', 'Masculino', 'Rua do Maxixe', 12, 'Alecrim', '59065-210', 'Próximo ao Nordestao', 'Natal', 'RN', 1000, 'Prove suas Habilidades nessa competição', 10, 2, 'danielorg', 'c1.jpg')
+
+
+INSERT INTO [Competicao] (nome, inicioInscricao, encerramentoInscricao, dataEvento, dataFimEvento, modalidade, horario, genero, rua, numero, bairro, cep, complemento, cidade, uf, ValorInscricao, descricao, numeromaximoInscritos, status_competicao, Organizador_usuario, foto_da_competicao) 
+VALUES ('Competicao 4', '01-01-2015', '01-02-2015', '01-03-2015', '01-04-2015', 'Dota', '10:00', 'Masculino', 'Rua do Maxixe', 12, 'Alecrim', '59065-210', 'Próximo ao Nordestao', 'Natal', 'RN', 1000, 'Prove suas Habilidades nessa competição', 10, 3, 'danielorg', 'c1.jpg')
+
+
+INSERT INTO [Competicao] (nome, inicioInscricao, encerramentoInscricao, dataEvento, dataFimEvento, modalidade, horario, genero, rua, numero, bairro, cep, complemento, cidade, uf, ValorInscricao, descricao, numeromaximoInscritos, status_competicao, Organizador_usuario, foto_da_competicao) 
+VALUES ('Competicao 5', '01-01-2015', '01-02-2015', '01-03-2015', '01-04-2015', 'Dota', '10:00', 'Masculino', 'Rua do Maxixe', 12, 'Alecrim', '59065-210', 'Próximo ao Nordestao', 'Natal', 'RN', 1000, 'Prove suas Habilidades nessa competição', 10, 3, 'danielorg', 'c1.jpg')

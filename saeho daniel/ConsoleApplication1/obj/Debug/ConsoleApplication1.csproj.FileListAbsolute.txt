@@ -1,0 +1,133 @@
+\\Mac\Home\Downloads\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+\\Mac\Home\Downloads\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+\\Mac\Home\Downloads\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+\\Mac\Home\Downloads\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.dll
+\\Mac\Home\Downloads\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.pdb
+\\Mac\Home\Downloads\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+\\Mac\Home\Downloads\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+\\Mac\Home\Downloads\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Daniel Souza\Downloads\Projeto - DAO - CompeticoesEncerradas, Abertas e Suas Competicoes\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Daniel Souza\Downloads\projetointegrador\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Daniel Souza\Downloads\projetointegrador\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Daniel Souza\Downloads\projetointegrador\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Daniel Souza\Downloads\projetointegrador\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.dll
+C:\Users\Daniel Souza\Downloads\projetointegrador\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.pdb
+C:\Users\Daniel Souza\Downloads\projetointegrador\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Daniel Souza\Downloads\projetointegrador\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Daniel Souza\Downloads\projetointegrador\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+\\Mac\Home\Desktop\Mais atualizado - Projeto Integrador\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+\\Mac\Home\Desktop\Mais atualizado - Projeto Integrador\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+\\Mac\Home\Desktop\Mais atualizado - Projeto Integrador\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+\\Mac\Home\Desktop\Mais atualizado - Projeto Integrador\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+\\Mac\Home\Desktop\Mais atualizado - Projeto Integrador\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+\\Mac\Home\Desktop\Mais atualizado - Projeto Integrador\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.dll
+\\Mac\Home\Desktop\Mais atualizado - Projeto Integrador\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.pdb
+\\Mac\Home\Desktop\Mais atualizado - Projeto Integrador\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\20131011110380\Downloads\+Mais atualizado - Projeto Integrador\Mais atualizado - Projeto Integrador\Mais atualizado - Projeto Integrador\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\20131011110380\Downloads\+Mais atualizado - Projeto Integrador\Mais atualizado - Projeto Integrador\Mais atualizado - Projeto Integrador\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\20131011110380\Downloads\+Mais atualizado - Projeto Integrador\Mais atualizado - Projeto Integrador\Mais atualizado - Projeto Integrador\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\20131011110380\Downloads\+Mais atualizado - Projeto Integrador\Mais atualizado - Projeto Integrador\Mais atualizado - Projeto Integrador\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.dll
+C:\Users\20131011110380\Downloads\+Mais atualizado - Projeto Integrador\Mais atualizado - Projeto Integrador\Mais atualizado - Projeto Integrador\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.pdb
+C:\Users\20131011110380\Downloads\+Mais atualizado - Projeto Integrador\Mais atualizado - Projeto Integrador\Mais atualizado - Projeto Integrador\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\20131011110380\Downloads\+Mais atualizado - Projeto Integrador\Mais atualizado - Projeto Integrador\Mais atualizado - Projeto Integrador\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\20131011110380\Downloads\+Mais atualizado - Projeto Integrador\Mais atualizado - Projeto Integrador\Mais atualizado - Projeto Integrador\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\20131011110258.IFRN\Desktop\pi aeho (1)\pi aeho\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\20131011110258.IFRN\Desktop\pi aeho (1)\pi aeho\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\20131011110258.IFRN\Desktop\pi aeho (1)\pi aeho\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\20131011110258.IFRN\Desktop\pi aeho (1)\pi aeho\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.dll
+C:\Users\20131011110258.IFRN\Desktop\pi aeho (1)\pi aeho\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.pdb
+C:\Users\20131011110258.IFRN\Desktop\pi aeho (1)\pi aeho\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\20131011110258.IFRN\Desktop\pi aeho (1)\pi aeho\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\20131011110258.IFRN\Desktop\pi aeho (1)\pi aeho\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\20131011110258.IFRN\Desktop\pi aeho (1) STRING\pi aeho\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\20131011110258.IFRN\Desktop\pi aeho (1) STRING\pi aeho\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\20131011110258.IFRN\Desktop\pi aeho (1) STRING\pi aeho\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\20131011110258.IFRN\Desktop\pi aeho (1) STRING\pi aeho\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.dll
+C:\Users\20131011110258.IFRN\Desktop\pi aeho (1) STRING\pi aeho\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.pdb
+C:\Users\20131011110258.IFRN\Desktop\pi aeho (1) STRING\pi aeho\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\20131011110258.IFRN\Desktop\pi aeho (1) STRING\pi aeho\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\20131011110258.IFRN\Desktop\pi aeho (1) STRING\pi aeho\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+\\psf\Home\Downloads\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+\\psf\Home\Downloads\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+\\psf\Home\Downloads\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+\\psf\Home\Downloads\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+\\psf\Home\Downloads\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+\\psf\Home\Downloads\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.dll
+\\psf\Home\Downloads\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.pdb
+\\psf\Home\Downloads\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\pnbugar\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\pnbugar\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\pnbugar\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\pnbugar\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.dll
+C:\pnbugar\saeho daniel\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.pdb
+C:\pnbugar\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\pnbugar\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\pnbugar\saeho daniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+\\psf\Home\Desktop\mexernissohjdaniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+\\psf\Home\Desktop\mexernissohjdaniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+\\psf\Home\Desktop\mexernissohjdaniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+\\Mac\Home\Desktop\saeho\mexernissohjdaniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+\\Mac\Home\Desktop\saeho\mexernissohjdaniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+\\Mac\Home\Desktop\saeho\mexernissohjdaniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+\\Mac\Home\Desktop\saeho\mexernissohjdaniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+\\Mac\Home\Desktop\saeho\mexernissohjdaniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+\\Mac\Home\Desktop\saeho\mexernissohjdaniel\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.dll
+\\Mac\Home\Desktop\saeho\mexernissohjdaniel\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.pdb
+\\Mac\Home\Desktop\saeho\mexernissohjdaniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+\\psf\Home\Desktop\saeho\mexernissohjdaniel\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+\\psf\Home\Desktop\saeho\mexernissohjdaniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+\\psf\Home\Desktop\saeho\mexernissohjdaniel\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+\\Mac\Home\Downloads\SAEHO _ HUH#UH#UH#U\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+\\Mac\Home\Downloads\SAEHO _ HUH#UH#UH#U\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+\\Mac\Home\Downloads\SAEHO _ HUH#UH#UH#U\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Daniel Souza\saeho\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Daniel Souza\saeho\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Daniel Souza\saeho\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Daniel Souza\saeho\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.dll
+C:\Users\Daniel Souza\saeho\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.pdb
+C:\Users\Daniel Souza\saeho\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Daniel Souza\saeho\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Daniel Souza\saeho\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Kramer\Documents\saeho\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Kramer\Documents\saeho\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Kramer\Documents\saeho\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Kramer\Documents\saeho\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.dll
+C:\Users\Kramer\Documents\saeho\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.pdb
+C:\Users\Kramer\Documents\saeho\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Kramer\Documents\saeho\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Kramer\Documents\saeho\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+\\Mac\Home\Desktop\saeho - NOVO\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+\\Mac\Home\Desktop\saeho - NOVO\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+\\Mac\Home\Desktop\saeho - NOVO\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+\\Mac\Home\Desktop\saeho - NOVO\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+\\Mac\Home\Desktop\saeho - NOVO\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+\\Mac\Home\Desktop\saeho - NOVO\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.dll
+\\Mac\Home\Desktop\saeho - NOVO\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.pdb
+\\Mac\Home\Desktop\saeho - NOVO\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+\\Mac\Home\Downloads\saeho-versao_1.9\saeho - NOVO\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+\\Mac\Home\Downloads\saeho-versao_1.9\saeho - NOVO\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+\\Mac\Home\Downloads\saeho-versao_1.9\saeho - NOVO\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+\\Mac\Home\Downloads\saeho-versao_1.9\saeho - NOVO\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+\\Mac\Home\Downloads\saeho-versao_1.9\saeho - NOVO\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+\\Mac\Home\Downloads\saeho-versao_1.9\saeho - NOVO\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.dll
+\\Mac\Home\Downloads\saeho-versao_1.9\saeho - NOVO\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.pdb
+\\Mac\Home\Downloads\saeho-versao_1.9\saeho - NOVO\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Daniel Souza\saeho-versao_2,0\saeho-versao_1.9\saeho - NOVO\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Daniel Souza\saeho-versao_2,0\saeho-versao_1.9\saeho - NOVO\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Daniel Souza\saeho-versao_2,0\saeho-versao_1.9\saeho - NOVO\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Daniel Souza\saeho - NOVO\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Daniel Souza\saeho - NOVO\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Daniel Souza\saeho - NOVO\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Daniel Souza\saeho - NOVO\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.dll
+C:\Users\Daniel Souza\saeho - NOVO\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.pdb
+C:\Users\Daniel Souza\saeho - NOVO\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Daniel Souza\saeho - NOVO\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Daniel Souza\saeho - NOVO\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Daniel Souza\workspace\saeho_final - SEXO FIM\saeho_final\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Daniel Souza\workspace\saeho_final - SEXO FIM\saeho_final\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Daniel Souza\workspace\saeho_final - SEXO FIM\saeho_final\saeho daniel\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Daniel Souza\workspace\saeho_final - SEXO FIM\saeho_final\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.dll
+C:\Users\Daniel Souza\workspace\saeho_final - SEXO FIM\saeho_final\saeho daniel\ConsoleApplication1\bin\Debug\Sistema Aeho.pdb
+C:\Users\Daniel Souza\workspace\saeho_final - SEXO FIM\saeho_final\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Daniel Souza\workspace\saeho_final - SEXO FIM\saeho_final\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Daniel Souza\workspace\saeho_final - SEXO FIM\saeho_final\saeho daniel\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

@@ -1,0 +1,62 @@
+C:\Users\20131011110029.IFRN.000\Desktop\saeho daniel\Hora\bin\Debug\Hora.exe.config
+C:\Users\20131011110029.IFRN.000\Desktop\saeho daniel\Hora\bin\Debug\Hora.exe
+C:\Users\20131011110029.IFRN.000\Desktop\saeho daniel\Hora\bin\Debug\Hora.pdb
+C:\Users\20131011110029.IFRN.000\Desktop\saeho daniel\Hora\bin\Debug\Sistema Aeho.dll
+C:\Users\20131011110029.IFRN.000\Desktop\saeho daniel\Hora\bin\Debug\Sistema Aeho.pdb
+C:\Users\20131011110029.IFRN.000\Desktop\saeho daniel\Hora\obj\Debug\Hora.csprojResolveAssemblyReference.cache
+C:\Users\20131011110029.IFRN.000\Desktop\saeho daniel\Hora\obj\Debug\Hora.exe
+C:\Users\20131011110029.IFRN.000\Desktop\saeho daniel\Hora\obj\Debug\Hora.pdb
+\\Mac\Home\Desktop\saeho\mexernissohjdaniel\saeho daniel\Hora\bin\Debug\Hora.exe.config
+\\Mac\Home\Desktop\saeho\mexernissohjdaniel\saeho daniel\Hora\bin\Debug\Hora.exe
+\\Mac\Home\Desktop\saeho\mexernissohjdaniel\saeho daniel\Hora\bin\Debug\Hora.pdb
+\\Mac\Home\Desktop\saeho\mexernissohjdaniel\saeho daniel\Hora\bin\Debug\Sistema Aeho.dll
+\\Mac\Home\Desktop\saeho\mexernissohjdaniel\saeho daniel\Hora\bin\Debug\Sistema Aeho.pdb
+\\Mac\Home\Desktop\saeho\mexernissohjdaniel\saeho daniel\Hora\obj\Debug\Hora.csprojResolveAssemblyReference.cache
+\\Mac\Home\Desktop\saeho\mexernissohjdaniel\saeho daniel\Hora\obj\Debug\Hora.exe
+\\Mac\Home\Desktop\saeho\mexernissohjdaniel\saeho daniel\Hora\obj\Debug\Hora.pdb
+C:\Users\20131011110380.IFRN.000\Downloads\saeho - Editando Compete\saeho\mexernissohjdaniel\saeho daniel\Hora\bin\Debug\Hora.exe.config
+C:\Users\20131011110380.IFRN.000\Downloads\saeho - Editando Compete\saeho\mexernissohjdaniel\saeho daniel\Hora\obj\Debug\Hora.exe
+C:\Users\20131011110380.IFRN.000\Downloads\saeho - Editando Compete\saeho\mexernissohjdaniel\saeho daniel\Hora\obj\Debug\Hora.pdb
+C:\Users\Daniel Souza\saeho\saeho daniel\Hora\bin\Debug\Hora.exe.config
+C:\Users\Daniel Souza\saeho\saeho daniel\Hora\bin\Debug\Hora.exe
+C:\Users\Daniel Souza\saeho\saeho daniel\Hora\bin\Debug\Hora.pdb
+C:\Users\Daniel Souza\saeho\saeho daniel\Hora\bin\Debug\Sistema Aeho.dll
+C:\Users\Daniel Souza\saeho\saeho daniel\Hora\bin\Debug\Sistema Aeho.pdb
+C:\Users\Daniel Souza\saeho\saeho daniel\Hora\obj\Debug\Hora.csprojResolveAssemblyReference.cache
+C:\Users\Daniel Souza\saeho\saeho daniel\Hora\obj\Debug\Hora.exe
+C:\Users\Daniel Souza\saeho\saeho daniel\Hora\obj\Debug\Hora.pdb
+C:\Users\Kramer\Documents\saeho\saeho daniel\Hora\bin\Debug\Hora.exe.config
+C:\Users\Kramer\Documents\saeho\saeho daniel\Hora\bin\Debug\Hora.exe
+C:\Users\Kramer\Documents\saeho\saeho daniel\Hora\bin\Debug\Hora.pdb
+C:\Users\Kramer\Documents\saeho\saeho daniel\Hora\bin\Debug\Sistema Aeho.dll
+C:\Users\Kramer\Documents\saeho\saeho daniel\Hora\bin\Debug\Sistema Aeho.pdb
+C:\Users\Kramer\Documents\saeho\saeho daniel\Hora\obj\Debug\Hora.csprojResolveAssemblyReference.cache
+C:\Users\Kramer\Documents\saeho\saeho daniel\Hora\obj\Debug\Hora.exe
+C:\Users\Kramer\Documents\saeho\saeho daniel\Hora\obj\Debug\Hora.pdb
+\\Mac\Home\Desktop\saeho - NOVO\saeho daniel\Hora\bin\Debug\Hora.exe.config
+\\Mac\Home\Desktop\saeho - NOVO\saeho daniel\Hora\bin\Debug\Hora.exe
+\\Mac\Home\Desktop\saeho - NOVO\saeho daniel\Hora\bin\Debug\Hora.pdb
+\\Mac\Home\Desktop\saeho - NOVO\saeho daniel\Hora\bin\Debug\Sistema Aeho.dll
+\\Mac\Home\Desktop\saeho - NOVO\saeho daniel\Hora\bin\Debug\Sistema Aeho.pdb
+\\Mac\Home\Desktop\saeho - NOVO\saeho daniel\Hora\obj\Debug\Hora.csprojResolveAssemblyReference.cache
+\\Mac\Home\Desktop\saeho - NOVO\saeho daniel\Hora\obj\Debug\Hora.exe
+\\Mac\Home\Desktop\saeho - NOVO\saeho daniel\Hora\obj\Debug\Hora.pdb
+\\Mac\Home\Downloads\saeho-versao_1.9\saeho - NOVO\saeho daniel\Hora\bin\Debug\Hora.exe.config
+\\Mac\Home\Downloads\saeho-versao_1.9\saeho - NOVO\saeho daniel\Hora\bin\Debug\Hora.exe
+\\Mac\Home\Downloads\saeho-versao_1.9\saeho - NOVO\saeho daniel\Hora\bin\Debug\Hora.pdb
+\\Mac\Home\Downloads\saeho-versao_1.9\saeho - NOVO\saeho daniel\Hora\bin\Debug\Sistema Aeho.dll
+\\Mac\Home\Downloads\saeho-versao_1.9\saeho - NOVO\saeho daniel\Hora\bin\Debug\Sistema Aeho.pdb
+\\Mac\Home\Downloads\saeho-versao_1.9\saeho - NOVO\saeho daniel\Hora\obj\Debug\Hora.csprojResolveAssemblyReference.cache
+\\Mac\Home\Downloads\saeho-versao_1.9\saeho - NOVO\saeho daniel\Hora\obj\Debug\Hora.exe
+\\Mac\Home\Downloads\saeho-versao_1.9\saeho - NOVO\saeho daniel\Hora\obj\Debug\Hora.pdb
+C:\Users\Daniel Souza\saeho-versao_2,0\saeho-versao_1.9\saeho - NOVO\saeho daniel\Hora\obj\Debug\Hora.csprojResolveAssemblyReference.cache
+C:\Users\Daniel Souza\saeho-versao_2,0\saeho-versao_1.9\saeho - NOVO\saeho daniel\Hora\obj\Debug\Hora.exe
+C:\Users\Daniel Souza\saeho-versao_2,0\saeho-versao_1.9\saeho - NOVO\saeho daniel\Hora\obj\Debug\Hora.pdb
+C:\Users\Daniel Souza\saeho - NOVO\saeho daniel\Hora\bin\Debug\Hora.exe.config
+C:\Users\Daniel Souza\saeho - NOVO\saeho daniel\Hora\bin\Debug\Hora.exe
+C:\Users\Daniel Souza\saeho - NOVO\saeho daniel\Hora\bin\Debug\Hora.pdb
+C:\Users\Daniel Souza\saeho - NOVO\saeho daniel\Hora\bin\Debug\Sistema Aeho.dll
+C:\Users\Daniel Souza\saeho - NOVO\saeho daniel\Hora\bin\Debug\Sistema Aeho.pdb
+C:\Users\Daniel Souza\saeho - NOVO\saeho daniel\Hora\obj\Debug\Hora.csprojResolveAssemblyReference.cache
+C:\Users\Daniel Souza\saeho - NOVO\saeho daniel\Hora\obj\Debug\Hora.exe
+C:\Users\Daniel Souza\saeho - NOVO\saeho daniel\Hora\obj\Debug\Hora.pdb

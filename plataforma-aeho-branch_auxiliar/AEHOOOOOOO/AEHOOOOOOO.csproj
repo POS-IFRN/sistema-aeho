@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5E019D6D-B432-4463-842A-7314441EFD2E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AEHOOOOOOO</RootNamespace>
+    <AssemblyName>AEHOOOOOOO</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CompeticaoAberta.aspx" />
+    <Content Include="css\fonts\locastyle-docs.svg" />
+    <Content Include="css\fonts\locastyle-panel-icons.svg" />
+    <Content Include="css\fonts\locastyle.svg" />
+    <Content Include="css\locastyle.css" />
+    <Content Include="css\StyleSheet1.css" />
+    <Content Include="fotos_premiacao\bronze.png" />
+    <Content Include="fotos_premiacao\ouro.png" />
+    <Content Include="fotos_premiacao\prata.png" />
+    <Content Include="js\jquery-2.0.3.js" />
+    <Content Include="js\locastyle.js" />
+    <Content Include="WebFormAlterarSenha.aspx" />
+    <Content Include="WebFormCompDAO.aspx" />
+    <Content Include="WebFormEditarCompete.aspx" />
+    <Content Include="WebFormInfoAdm.aspx" />
+    <Content Include="WebFormMengDAO.aspx" />
+    <Content Include="WebFormPesquisa.aspx" />
+    <Content Include="WebFormPesquisaA.aspx" />
+    <Content Include="WebFormPesquisarAno.aspx" />
+    <Content Include="WebFormRegistrarCompeticao.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebFormAlterarDados.aspx" />
+    <Content Include="WebFormCompAbertDAO.aspx" />
+    <Content Include="WebFormCompEncerDAO.aspx" />
+    <Content Include="WebFormLogin.aspx" />
+    <Content Include="WebFormLoginAdm.aspx" />
+    <Content Include="WebFormMensagem.aspx" />
+    <Content Include="WebFormRegistro.aspx" />
+    <Content Include="WebFormRegistroDataView.aspx" />
+    <Content Include="WebFormRegistroDataViewEdit.aspx" />
+    <Content Include="WebFormRegistroOrganizador.aspx" />
+    <Content Include="WebFormRegistroOrganizadorEdit.aspx" />
+    <Content Include="WebFormSair.aspx" />
+    <Content Include="WebFormSuasMensagens.aspx" />
+    <Content Include="WebFormUploadVencedoresCompeticao.aspx" />
+    <Content Include="WebFormValidarCompeticao.aspx" />
+    <Content Include="WebFormVerCompDAO.aspx" />
+    <Content Include="WebFormVerPerfil.aspx" />
+    <Content Include="WebFormVerSuasCompeticoes.aspx" />
+    <Content Include="WebFormVerSuasPremiacoes.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CompeticaoAberta.aspx.cs">
+      <DependentUpon>CompeticaoAberta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompeticaoAberta.aspx.designer.cs">
+      <DependentUpon>CompeticaoAberta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterADM.Master.cs">
+      <DependentUpon>MasterADM.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterADM.Master.designer.cs">
+      <DependentUpon>MasterADM.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterAtleta.Master.cs">
+      <DependentUpon>MasterAtleta.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterAtleta.Master.designer.cs">
+      <DependentUpon>MasterAtleta.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterAno.Master.cs">
+      <DependentUpon>MasterAno.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterAno.Master.designer.cs">
+      <DependentUpon>MasterAno.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterOrganizador.Master.cs">
+      <DependentUpon>MasterOrganizador.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterOrganizador.Master.designer.cs">
+      <DependentUpon>MasterOrganizador.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebFormAlterarSenha.aspx.cs">
+      <DependentUpon>WebFormAlterarSenha.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormAlterarSenha.aspx.designer.cs">
+      <DependentUpon>WebFormAlterarSenha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormCompDAO.aspx.cs">
+      <DependentUpon>WebFormCompDAO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormCompDAO.aspx.designer.cs">
+      <DependentUpon>WebFormCompDAO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormEditarCompete.aspx.cs">
+      <DependentUpon>WebFormEditarCompete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormEditarCompete.aspx.designer.cs">
+      <DependentUpon>WebFormEditarCompete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormInfoAdm.aspx.cs">
+      <DependentUpon>WebFormInfoAdm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormInfoAdm.aspx.designer.cs">
+      <DependentUpon>WebFormInfoAdm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormMengDAO.aspx.cs">
+      <DependentUpon>WebFormMengDAO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormMengDAO.aspx.designer.cs">
+      <DependentUpon>WebFormMengDAO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormPesquisa.aspx.cs">
+      <DependentUpon>WebFormPesquisa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormPesquisa.aspx.designer.cs">
+      <DependentUpon>WebFormPesquisa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormPesquisaA.aspx.cs">
+      <DependentUpon>WebFormPesquisaA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormPesquisaA.aspx.designer.cs">
+      <DependentUpon>WebFormPesquisaA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormPesquisarAno.aspx.cs">
+      <DependentUpon>WebFormPesquisarAno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormPesquisarAno.aspx.designer.cs">
+      <DependentUpon>WebFormPesquisarAno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormRegistrarCompeticao.aspx.cs">
+      <DependentUpon>WebFormRegistrarCompeticao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormRegistrarCompeticao.aspx.designer.cs">
+      <DependentUpon>WebFormRegistrarCompeticao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SiteMaster.Master.cs">
+      <DependentUpon>SiteMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteMaster.Master.designer.cs">
+      <DependentUpon>SiteMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormAlterarDados.aspx.cs">
+      <DependentUpon>WebFormAlterarDados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormAlterarDados.aspx.designer.cs">
+      <DependentUpon>WebFormAlterarDados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormCompAbertDAO.aspx.cs">
+      <DependentUpon>WebFormCompAbertDAO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormCompAbertDAO.aspx.designer.cs">
+      <DependentUpon>WebFormCompAbertDAO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormCompEncerDAO.aspx.cs">
+      <DependentUpon>WebFormCompEncerDAO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormCompEncerDAO.aspx.designer.cs">
+      <DependentUpon>WebFormCompEncerDAO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormLogin.aspx.cs">
+      <DependentUpon>WebFormLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormLogin.aspx.designer.cs">
+      <DependentUpon>WebFormLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormLoginAdm.aspx.cs">
+      <DependentUpon>WebFormLoginAdm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormLoginAdm.aspx.designer.cs">
+      <DependentUpon>WebFormLoginAdm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormMensagem.aspx.cs">
+      <DependentUpon>WebFormMensagem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormMensagem.aspx.designer.cs">
+      <DependentUpon>WebFormMensagem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormRegistro.aspx.cs">
+      <DependentUpon>WebFormRegistro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormRegistro.aspx.designer.cs">
+      <DependentUpon>WebFormRegistro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormRegistroDataView.aspx.cs">
+      <DependentUpon>WebFormRegistroDataView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormRegistroDataView.aspx.designer.cs">
+      <DependentUpon>WebFormRegistroDataView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormRegistroDataViewEdit.aspx.cs">
+      <DependentUpon>WebFormRegistroDataViewEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormRegistroDataViewEdit.aspx.designer.cs">
+      <DependentUpon>WebFormRegistroDataViewEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormRegistroOrganizador.aspx.cs">
+      <DependentUpon>WebFormRegistroOrganizador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormRegistroOrganizador.aspx.designer.cs">
+      <DependentUpon>WebFormRegistroOrganizador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormRegistroOrganizadorEdit.aspx.cs">
+      <DependentUpon>WebFormRegistroOrganizadorEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormRegistroOrganizadorEdit.aspx.designer.cs">
+      <DependentUpon>WebFormRegistroOrganizadorEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormSair.aspx.cs">
+      <DependentUpon>WebFormSair.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormSair.aspx.designer.cs">
+      <DependentUpon>WebFormSair.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormSuasMensagens.aspx.cs">
+      <DependentUpon>WebFormSuasMensagens.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormSuasMensagens.aspx.designer.cs">
+      <DependentUpon>WebFormSuasMensagens.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormUploadVencedoresCompeticao.aspx.cs">
+      <DependentUpon>WebFormUploadVencedoresCompeticao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormUploadVencedoresCompeticao.aspx.designer.cs">
+      <DependentUpon>WebFormUploadVencedoresCompeticao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormValidarCompeticao.aspx.cs">
+      <DependentUpon>WebFormValidarCompeticao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormValidarCompeticao.aspx.designer.cs">
+      <DependentUpon>WebFormValidarCompeticao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormVerCompDAO.aspx.cs">
+      <DependentUpon>WebFormVerCompDAO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormVerCompDAO.aspx.designer.cs">
+      <DependentUpon>WebFormVerCompDAO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormVerPerfil.aspx.cs">
+      <DependentUpon>WebFormVerPerfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormVerPerfil.aspx.designer.cs">
+      <DependentUpon>WebFormVerPerfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormVerSuasCompeticoes.aspx.cs">
+      <DependentUpon>WebFormVerSuasCompeticoes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormVerSuasCompeticoes.aspx.designer.cs">
+      <DependentUpon>WebFormVerSuasCompeticoes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormVerSuasPremiacoes.aspx.cs">
+      <DependentUpon>WebFormVerSuasPremiacoes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormVerSuasPremiacoes.aspx.designer.cs">
+      <DependentUpon>WebFormVerSuasPremiacoes.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SiteMaster.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterAno.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterOrganizador.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ImagensSalvas\" />
+    <Folder Include="Modelo\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\saeho daniel\Sistema Aeho\Sistema Aeho.csproj">
+      <Project>{5cee6284-cc4f-4761-9f59-146a0bea63a0}</Project>
+      <Name>Sistema Aeho</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterAtleta.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterADM.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\fonts\locastyle-docs.eot" />
+    <Content Include="css\fonts\locastyle-docs.json" />
+    <Content Include="css\fonts\locastyle-docs.ttf" />
+    <Content Include="css\fonts\locastyle-docs.woff" />
+    <Content Include="css\fonts\locastyle-panel-icons.eot" />
+    <Content Include="css\fonts\locastyle-panel-icons.json" />
+    <Content Include="css\fonts\locastyle-panel-icons.ttf" />
+    <Content Include="css\fonts\locastyle-panel-icons.woff" />
+    <Content Include="css\fonts\locastyle.eot" />
+    <Content Include="css\fonts\locastyle.ttf" />
+    <Content Include="css\fonts\locastyle.woff" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58978</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

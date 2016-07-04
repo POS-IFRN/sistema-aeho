@@ -1,0 +1,6 @@
+V - Mostrar os Inscritos
+V - Botão de Validar para os Organizadores está aparecendo
+V - Alterar Senha COlocar os textbox em password
+V - Mudar o nome label em alterar dados e alterar senha
+Pesquisa no gridview para selecionar medalha
+Dizer de qual competição é a mensagem (Excluir a mensagem)
